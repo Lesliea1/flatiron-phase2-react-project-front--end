@@ -6,7 +6,10 @@ import { useState } from 'react'
 // header component 
 import Header from './components/Header'
 // main component
+import Main from './components/Main'
 // footer component
+import Footer from './components/Footer'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +17,8 @@ function App() {
   return (
     <>
       <Header />
+      <Main />
+      <Footer />
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
