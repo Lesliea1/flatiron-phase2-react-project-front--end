@@ -2,7 +2,7 @@ const Header = () => {
     return (
         <>
             <header>
-                <h1> My App </h1>
+                <h1> Food for Thought! </h1>
                 <nav>
                     <u1>
                         <li><a href="#some-id1">
