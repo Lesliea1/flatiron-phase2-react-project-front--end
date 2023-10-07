@@ -1,5 +1,3 @@
-//FoodList
-
 import { useEffect, useState} from "react";
 
 
@@ -31,28 +29,29 @@ const HolidayList = () => {
     const renderedHolidays = holidays.map((holiday) => (
 
        <tr key={holiday._id}>
-            <td>{holiday.date}</td>
-            <td>{holiday.localName}</td>
-            <td>{holiday.global}</td>
-            <td>{holiday.name}</td>
-           <td>{holiday.launchYear}</td>
-            <td>{holiday.types}</td>
+            <td style={{ padding: '10px' }}>{holiday.date}</td> 
+            <td style={{ padding: '10px' }}>{holiday.localName}</td> 
+            <td style={{ padding: '10px' }}>{holiday.global}</td> 
+            <td style={{ padding: '10px' }}>{holiday.name}</td> 
+           <td style={{ padding: '10px' }}>{holiday.launchYear}</td> 
+            <td style={{ padding: '15px' }}>{holiday.types}</td> 
         </tr>
     ))
 
         
     return (
         <>
-            <h2>Holidays celebrated in Sweden</h2>
+        
+            <h2 id="some-id2">Holidays Celebrated in Sweden</h2>
             <table>
                 <thead>
                     <tr>
-                        <th>Date</th>
-                        <th>Local Name</th>
-                        <th>Global?</th>
-                        <th>Name</th>
-                        <th>Launch</th>
-                        <th>Accessibility</th>
+                        <th style={{ padding: '10px' }}>Date</th> 
+                        <th style={{ padding: '10px' }}>Local Name</th> 
+                        <th style={{ padding: '10px' }}>Global?</th> 
+                        <th style={{ padding: '10px' }}>Name</th> 
+                        <th style={{ padding: '10px' }}>Launch</th> 
+                        <th style={{ padding: '10px' }}>Accessibility</th> 
                     </tr>
                 </thead>
                 <tbody>
