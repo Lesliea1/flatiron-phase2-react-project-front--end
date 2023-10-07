@@ -1,12 +1,32 @@
 //FoodList
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+
 
 const FoodList = () => {
-    
+
     const foods = `Peanuts from origin`
 
-    
+    useEffect(() => {
+        const fetchFood = async () => {
+
+            const url = `http://localhost:3000/foodFacts`;
+
+            try {
+                const response = await fetch(url);
+                const jsonData = await response.json();
+                console.log(jsonData)
+                return jsonData
+            } catch (error) {
+                console.error("Error occurred when fetching data", error);
+                return null;
+            }
+        };
+
+        fetchFood();
+    }, []);
+
+        
     return (
         <>
             <h1>What do you already know about your food?</h1>
