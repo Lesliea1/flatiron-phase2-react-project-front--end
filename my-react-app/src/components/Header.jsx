@@ -2,7 +2,7 @@ const Header = () => {
     return (
         <>
             <header>
-                <h1> Food for Thought! </h1>
+                <h1> Sweden for Thought! </h1>
                 <nav>
                     <u1>
                         <li><a href="#some-id1">
