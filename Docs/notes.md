@@ -8,4 +8,5 @@
 8. a state update is required for post request from return of json, useState. 
 
 
-https://backend-sweden-for-thought.onrender.com backend 
+backend deployment link: https://backend-sweden-for-thought.onrender.com 
+frontend deployment link:https://backend-sweden-for-thought.onrender.com 
