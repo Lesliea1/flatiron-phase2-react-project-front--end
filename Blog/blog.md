@@ -1,4 +1,4 @@
-Blog link will be placed here. 
+Blog link: https://medium.com/@alvarado.leslie1201/determining-your-style-d466c0920872
 
-Blog idea: tutorial on use(?) and a server API,
- - challenges or code that was used to implement this? 
+backend deployment link: https://backend-sweden-for-thought.onrender.com 
+frontend deployment link:https://sweden-for-thought.netlify.app/
