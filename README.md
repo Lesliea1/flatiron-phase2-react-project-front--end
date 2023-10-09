@@ -23,6 +23,9 @@ This site includes data in regards to Swedens festive seasons. In this site you 
 - npm install
 - npm run dev
 
+- Backend Repo: https://github.com/Lesliea1/json-server-template.git
+- Installation instructions: fork, and copy ssh link. Clone to repository and install dependecies, then npm run start/ npm run dev. 
+
 
 
 ## Built With
