@@ -8,6 +8,7 @@ Takiing a dive into Swedish culture and invloving yourself in data around the fe
 - [Getting Started](#getting-started)
 - [Built With](#built-with)
 - [License](#license)
+- [Links](#Links)
 
 ## About
 
@@ -31,3 +32,7 @@ This site includes data in regards to Swedens festive seasons. In this site you 
 
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+## Links
+- Backend Repo: https://github.com/Lesliea1/json-server-template.git
+- Installation instructions: fork, and copy ssh link. Clone to repository and install dependecies, then npm run start/ npm run dev. 
