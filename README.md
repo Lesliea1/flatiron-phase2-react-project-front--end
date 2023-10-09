@@ -18,9 +18,9 @@ This site includes data in regards to Swedens festive seasons. In this site you 
 - Installation instructions: fork, and copy ssh link. Clone to repository and install dependecies. 
 - In terminal Cd into "my-react-app". Once in correct location, insert in terminal "run npm dev" website will pull into browser.
 - git clone git@github.com:Lesliea1/flatiron-phase2-react-project-front--end.git
-cd flatiron-phase2-react-project-front--end
-npm install
-npm run dev
+- cd flatiron-phase2-react-project-front--end
+- npm install
+- npm run dev
 
 
 
