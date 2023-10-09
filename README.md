@@ -38,4 +38,6 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 ## Links
 - Backend Repo: https://github.com/Lesliea1/json-server-template.git
-- Installation instructions: fork, and copy ssh link. Clone to repository and install dependecies, then npm run start/ npm run dev. 
+- Installation instructions: fork, and copy ssh link. Clone to repository and install dependecies, then npm run start/ npm run dev.
+- backend deployment link: https://backend-sweden-for-thought.onrender.com
+- frontend deployment link: https://sweden-for-thought.netlify.app/
