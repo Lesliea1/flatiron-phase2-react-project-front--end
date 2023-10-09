@@ -1,6 +1,6 @@
 # flatiron-phase2-react-project-front--end
 
-Takiing a dive into Swedish culture and invloving yourself in data around the festive culture.
+Takiing a dive into Swedish culture and invloving yourself in data around the festive seasons.
 
 ## Table of Contents
 
