@@ -1,16 +1,19 @@
 import HolidayList from "./HolidayList"
+import '../styles/Main.css'
 
 const Main = () => {
     return (
         <>
+            
         
-            <main id="some-id1" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-                <h2>Sweden Local Traditions</h2>
-                <img src="https://i0.wp.com/scandification.com/wp-content/uploads/2021/09/Swedish-Holidays-1-scaled.jpg?resize=1155%2C770&ssl=1"
-                    alt="Swedish dancing women" style={{ width: '480px', height: '380px' }} />
+            <main className="main-container" id="some-id1" >
+                <div className="main-line1"></div>
+                <h2 className="main-title">Sweden Local Traditions</h2>
+                <img className="main-image" src="https://i0.wp.com/scandification.com/wp-content/uploads/2021/09/Swedish-Holidays-1-scaled.jpg?resize=1155%2C770&ssl=1"
+                    alt="Swedish dancing women" />
                 
-<br></br>
-                <p>
+
+                <p className="main-text">
                     Swedish locals known to be cultured and festive,
                     partipate in the numerous yearly festivities. Many of these
                     holidays are referred to as red days, due to swedish people using this
@@ -22,8 +25,8 @@ const Main = () => {
                     can go home to prepare for the festivities.
                     Let's explore some of the common holidays below!
                 </p>
-                <br></br>
-                <br></br>
+                
+                 <div className="main-line2"></div>
             
                 <HolidayList/>
                
