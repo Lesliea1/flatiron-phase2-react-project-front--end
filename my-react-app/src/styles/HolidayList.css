@@ -1,0 +1,58 @@
+.holiday-list-title {
+    margin-bottom: 50px;
+
+}
+
+.holiday-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.holiday-table {
+    margin-bottom: 150px;
+    text-align: center;
+
+}
+
+th,
+td {
+    padding: 20px;
+
+}
+
+.holiday-line {
+    background-color: #ece3e3;
+    height: 2px;
+    width: 60%;
+    margin-bottom: 170px;
+}
+
+.holiday-title {
+    margin-bottom: 40px;
+}
+
+.holiday-image {
+    margin-bottom: 50px;
+    max-width: 40%;
+    height: auto;
+}
+
+.holiday-text {
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    line-height: 2.5;
+    padding: 35px;
+}
+
+.holiday-line2 {
+    background-color: #ece3e3;
+    height: 2px;
+    width: 60%;
+    margin-bottom: 170px;
+}
