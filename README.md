@@ -18,7 +18,7 @@ Welcome to Sweden For Thought, a website that provides information about Sweden'
 
 - Frontend installation instructions: fork and clone the repo using the copy ssh link: git@github.com:Lesliea1/flatiron-phase2-react-project-front--end.git. Navigate to the depository cloned and install dependecies (npm install). 
 - In terminal cd into "my-react-app" to enter working directory. Once in correct location, insert in terminal "run npm dev" website which will pull into browser localhost.
-- Backend installation instructions: fork and clone the repo using the copy ssh link: git@github.com:Lesliea1/json-server-template.git. avigate to the depository cloned and install dependecies (npm install).
+- Backend installation instructions: fork and clone the repo using the copy ssh link: git@github.com:Lesliea1/json-server-template.git , then navigate to the depository cloned and install dependecies (npm install).
 - Once in correct location, insert in terminal "npm run start" website which will pull into browser localhost.
 
 
