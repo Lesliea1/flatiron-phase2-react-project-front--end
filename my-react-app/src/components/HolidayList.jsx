@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import '../styles/HolidayList.css'
+import HolidayForm from "./HolidayForm";
 
-const HolidayList = () => {
-
+const HolidayList = ({addHoliday}) => {
     const [holidays, setHolidayList] = useState([]);
 
     useEffect(() => {
@@ -24,7 +24,7 @@ const HolidayList = () => {
         };
 
         fetchHolidays();
-    }, []);
+    }, [holidays]);
 
     const renderedHolidays = holidays.map((holiday) => (
 
@@ -44,7 +44,8 @@ const HolidayList = () => {
     return (
         <>
          <div className="holiday-list-container">
-            <h2 className="holiday-list-title" id="some-id2">Holidays Celebrated in Sweden</h2>
+                <h2 className="holiday-list-title" id="some-id2">Holidays Celebrated in Sweden</h2>
+                 <HolidayForm addHoliday={addHoliday} />
             <table className="holiday-table">
                 <thead>
                     <tr>
@@ -86,4 +87,4 @@ const HolidayList = () => {
 }
 
 
-export default HolidayList;
+export default HolidayList; 

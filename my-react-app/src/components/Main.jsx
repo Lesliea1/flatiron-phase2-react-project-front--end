@@ -28,7 +28,6 @@ const Main = () => {
                 
                  <div className="main-line2"></div>
             
-                <HolidayList/>
                
         
             </main> 

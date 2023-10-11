@@ -5,10 +5,17 @@ import Footer from './components/Footer';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Corrected 'Link'
 import About from './components/About';
 import Home from './components/Home'
+import HolidayList from './components/HolidayList';
 
 
 const App = () => {
-  const [count, setCount] = useState(0);
+
+  const [holidays, setHolidays] = useState([]);
+
+ const addHoliday = (newHoliday) => {
+    setHolidays([...holidays, newHoliday]);
+  };
+
 
    return (
     <Router>
@@ -18,7 +25,8 @@ const App = () => {
            <Route path="/" element={<Home />} />
            <Route path="/about" element={<About />} />
         </Routes>
-        <Main />
+         <Main />
+     <HolidayList addHoliday={addHoliday} />
         <Footer />
         
       </div>
